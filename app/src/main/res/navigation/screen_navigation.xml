@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.edu.infnet.receitafacil.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_receitas"
+        android:name="br.edu.infnet.receitafacil.receitas.ReceitasFragment"
+        android:label="@string/title_receitas"
+        tools:layout="@layout/fragment_receitas" >
+        <action
+            android:id="@+id/action_nav_receitas_to_navigation_adicionar"
+            app:destination="@id/nav_adicionar" />
+        <action
+            android:id="@+id/action_nav_receitas_to_nav_atualizar"
+            app:destination="@id/nav_atualizar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_adicionar"
+        android:name="br.edu.infnet.receitafacil.AdicionarFragment"
+        android:label="@string/title_adicionar"
+        tools:layout="@layout/fragment_adicionar" >
+        <action
+            android:id="@+id/action_nav_adicionar_to_nav_receitas"
+            app:destination="@id/nav_receitas" />
+        <action
+            android:id="@+id/action_nav_adicionar_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="br.edu.infnet.receitafacil.AboutFragment"
+        android:label="@string/title_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_atualizar"
+        android:name="br.edu.infnet.receitafacil.AtualizarFragment"
+        android:label="Atualizar Receita"
+        tools:layout="@layout/fragment_atualizar" >
+        <action
+            android:id="@+id/action_nav_atualizar_to_nav_receitas"
+            app:destination="@id/nav_receitas" />
+        <argument
+            android:name="selecionado"
+            app:argType="br.edu.infnet.receitafacil.receitas.Receita" />
+        <action
+            android:id="@+id/action_nav_atualizar_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>

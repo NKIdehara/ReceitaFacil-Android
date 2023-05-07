@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "968914806092",
+    "project_id": "android-infnet",
+    "storage_bucket": "android-infnet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968914806092:android:287f6b374b41a4007f5be9",
+        "android_client_info": {
+          "package_name": "br.edu.infnet.nelson_idehara_dr4_tp3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968914806092-lcc5r6u9gmo94dupnp6p209qsd1kombs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMW7hDNBY7jP_EjQ7cxjIvjrmvlf6OHRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968914806092-lcc5r6u9gmo94dupnp6p209qsd1kombs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968914806092:android:f1c11cc880d1635a7f5be9",
+        "android_client_info": {
+          "package_name": "br.edu.infnet.receitafacil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968914806092-lcc5r6u9gmo94dupnp6p209qsd1kombs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMW7hDNBY7jP_EjQ7cxjIvjrmvlf6OHRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968914806092-lcc5r6u9gmo94dupnp6p209qsd1kombs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="title_home">Home</string>
+    <string name="title_receitas">Receitas</string>
+    <string name="title_adicionar">Nova Receita</string>
+    <string name="title_about">About</string>
+    <string name="title_atualizar">Atualizar Receita</string>
+
+    <!-- AdMob ad unit ID para versão de testes -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- AdMob ad unit ID para versão de produção
+    <string name="banner_ad_unit_id">ca-app-pub-2133589299901588/5318016492</string>
+    -->
+</resources>

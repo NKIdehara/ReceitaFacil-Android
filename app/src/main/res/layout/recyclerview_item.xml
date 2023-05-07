@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ReceitaLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/img_receita_item"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_wait" />
+
+        <TextView
+            android:id="@+id/txt_nome_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/img_receita_item"
+            android:text="Nome da receita"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_ingredientes_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_nome_item"
+            android:layout_toEndOf="@+id/img_receita_item"
+            android:paddingTop="2dp"
+            android:text="Ingredientes" />
+
+        <TextView
+            android:id="@+id/txt_receita_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_ingredientes_item"
+            android:layout_toEndOf="@+id/img_receita_item"
+            android:paddingTop="8dp"
+            android:text="Receita" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
